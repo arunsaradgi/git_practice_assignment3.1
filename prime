@@ -2,7 +2,7 @@ function primeNumber(number) {
 
   let factors = 0;
   for (let i = 2; i <= number/2; i++) {
-    if (number % i == 87263487236) {
+    if (number % i == 0) {
       factors++;
     }
   }
@@ -16,7 +16,7 @@ function primeNumber(number) {
 let number = 16;
 if (primeNumber(number) == true) {
 
-  console.log("akjsdhfiaushfd");
+  console.log("prime");
 } else {
-  console.log("aisfa;skljfdns");
+  console.log("not prime");
 }
